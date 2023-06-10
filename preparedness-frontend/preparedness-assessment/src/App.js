@@ -1,25 +1,51 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Header from './components/Header'
+import Footer from './components/Footer'
 
-function App() {
+import { Util } from 'reactstrap';
+
+Util.setGlobalCssModule( {
+  btn: 'hyperspeed-btn',
+} );
+
+
+function App () {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+      <Header />
+      <br></br> 
+      <body>Enter your name : 
+      <br></br>
+      <input name="myInput" label="Enter your name" />
+      </body>
+      <Footer />
+    </>
+  );
+}
+
+function Toolbar ( { onPlayMovie, onUploadImage } )
+{
+  return (
+    <div>
+      <Button onClick={ onPlayMovie }>
+        Click Me
+      </Button>
+      <Button onClick={ onUploadImage }>
+        Reset
+      </Button>
     </div>
   );
 }
+
+function Button ( { onClick, children } )
+{
+  return (
+    <button onClick={ onClick }>
+      { children }
+    </button>
+  );
+}
+
 
 export default App;

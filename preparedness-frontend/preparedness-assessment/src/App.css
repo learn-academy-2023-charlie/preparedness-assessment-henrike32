@@ -14,13 +14,26 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-image:url('https://media4.giphy.com/headers/NoMansDream/Wsws43NM0zxF.gif');
+  background-repeat:repeat; 
+  min-height: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 50px;
+  color: white;
+}
+
+
+.App-footer {
+  background-image:url('https://media4.giphy.com/headers/NoMansDream/Wsws43NM0zxF.gif');
+  background-repeat:repeat; 
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   color: white;
 }
 
@@ -35,4 +48,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.button{
+  background-image:url('https://media4.giphy.com/headers/NoMansDream/Wsws43NM0zxF.gif');
+  background-repeat:repeat; 
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: black;
 }
