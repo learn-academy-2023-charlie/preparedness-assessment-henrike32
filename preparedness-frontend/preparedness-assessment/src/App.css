@@ -14,8 +14,8 @@
 }
 
 .App-header {
-  background-image:url('https://media4.giphy.com/headers/NoMansDream/Wsws43NM0zxF.gif');
-  background-repeat:repeat; 
+  background-image: url('https://media4.giphy.com/headers/NoMansDream/Wsws43NM0zxF.gif');
+  background-repeat: repeat;
   min-height: 50px;
   display: flex;
   flex-direction: column;
@@ -24,6 +24,7 @@
   font-size: 50px;
   color: white;
 }
+
 
 
 .App-footer {
@@ -51,8 +52,6 @@
 }
 
 .button{
-  background-image:url('https://media4.giphy.com/headers/NoMansDream/Wsws43NM0zxF.gif');
-  background-repeat:repeat; 
   min-height: 50px;
   display: flex;
   flex-direction: column;

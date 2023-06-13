@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+body {
+  background-image: url('https://img.freepik.com/free-vector/stylish-glowing-digital-red-lines-banner_1017-23964.jpg?size=626&ext=jpg');
+  background-repeat: repeat;
+}
+
+.App-header {
+  /* Update the following properties */
+  background: none;
+  min-height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+  margin-top: 20vh; /* Adjust the value to vertically center the header */
+}
+.label {
+  -ms-text-underline-position: auto;
+  font-size: 10px;
+}
+
+
+.App-footer {
+  background-image: url('https://media4.giphy.com/headers/NoMansDream/Wsws43NM0zxF.gif');
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  color: white;
+  position: fixed; /* Set the footer to be fixed */
+  bottom: 0; /* Position it at the bottom of the viewport */
+  width: 100%; /* Occupy the full width of the viewport */
+  font-size: 18px;
+}
+.header-title {
+  font-size: 24px; /* Adjust the font size as needed */
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.button{
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: black;
+}
+
+label {
+  /* Add the following styles */
+  font-size: 16px;
+}
+.form {
+  /* Add the following styles */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.input {
+  /* Add the following styles */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+input {
+  /* Add the following styles */
+  width: 200px;
+  text-align: center;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.button-group button {
+  margin: 0 0.5rem;
+}
